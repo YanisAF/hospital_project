@@ -1,0 +1,208 @@
+/* Reset des styles par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control,
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn,
+.patient-add-consultation button,
+.consultation-fiche button,
+.consultation-prescription button,
+.login-form button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3a318b;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.error-message,
+.login-error {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.patient,
+.patient-info,
+.consultation-title,
+.login-title {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.patient {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 4px;
+    display: inline-block;
+    width: 30%;
+}
+
+.patient p {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+/* Header and Navigation styles */
+header {
+    background-color: #3e8e41;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+/* Section-specific styles */
+.patient-add-consultation,
+.consultation-fiche,
+.consultation-prescription {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e0e0e0;
+}
+
+.patient-add-consultation h2,
+.consultation-fiche h2,
+.consultation-prescription h2,
+.patient-consultations h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.patient-consultations {
+    margin-top: 20px;
+}
+
+.patient-consultations div {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.patient-consultations a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.patient-consultations a:hover {
+    text-decoration: underline;
+}
+
+.consultation-fiche textarea,
+.consultation-prescription textarea {
+    width: 100%;
+    height: 150px;
+    padding: 5px;
+    font-size: 1em;
+}
+
+.consultation-fiche label,
+.consultation-prescription label,
+.login-form label {
+    font-weight: bold;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    overflow: hidden;
+}
+
+.image-container img {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+}
+
+h1 a {
+    text-decoration: none;
+}
+
+form {
+    margin: 20px;
+}
+
+.patients-container {
+    text-align: center;
+}
